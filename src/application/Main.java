@@ -374,7 +374,7 @@ public class Main extends Application {
         // helpMenu
         MenuItem helpMenuItem = new MenuItem("About");
         helpMenuItem.setOnAction(actionEvent -> {
-        	popUp("About", "<-under construction->");	
+        	popUp("About", "Description on https://github.com/ChiangFongSin/EPSim/tree/master");	
         });
         helpMenu.getItems().add(helpMenuItem);
         
