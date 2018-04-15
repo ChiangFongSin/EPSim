@@ -401,7 +401,9 @@ public class Main extends Application {
         	// TODO: check for errors with user input (exists but incomplete)
         	System.out.println("Running...");
         	
-        	controller.resetSequence();
+        	if (runWithStep == false) {
+        		controller.resetSequence();
+        	}
         	
         	int iter = 0;
         	boolean hasChanged = true;
